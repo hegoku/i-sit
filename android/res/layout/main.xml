@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+ <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="登录" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:singleLine="false"
+        android:text="\n有些教学楼的信号不好，如FX01,C201等教室，碰到这些教室就无法连上。如果之前已经成功连上网络，之后断开了wifi,几分钟后又连i-sit,如果提示请检查网络，可能是已经连上了。\n\nVersion:1.0\nPowered by :Jack\n机补力社团\n获取最新版:http://blog.renren.com/blog/265413397/914015893?bfrom=01020110200" />
+    
+</LinearLayout>
